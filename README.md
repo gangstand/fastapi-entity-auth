@@ -1,8 +1,12 @@
 <h1 align="left" style="margin-bottom: 20px; font-weight: 500; font-size: 50px; color: black;">
-    EntityAuth
+    FastAPI Entity Auth
 </h1>
 
+---
 
+**Source Code**: <a href="https://github.com/gangstand/fastapi-entity-auth" target="_blank">https://github.com/gangstand/fastapi-entity-auth</a>
+
+---
 
 ## Features
 
@@ -19,7 +23,7 @@ A FastAPI extension that provides support for JWT authentication (secure, easy t
 The easiest way to start working with this extension with pip
 
 ```bash
-pip install fastapi_entity_auth
+pip install fastapi-entity-auth
 ```
 
 If you want to use asymmetric (public/private) key signing algorithms, include the <b>cryptography</b> extra requirements.

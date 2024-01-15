@@ -1,0 +1,45 @@
+site_name: FastAPI Entity Auth
+site_description: FastAPI extension that provides JWT Auth support (secure, easy to use, and lightweight)
+theme:
+  name: material
+  palette:
+    primary: black
+
+repo_name: gangstand/fastapi-entity-auth
+repo_url: https://github.com/gangstand/fastapi-entity-auth
+
+markdown_extensions:
+  - markdown_include.include:
+      base_path: docs
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      linenums_style: pymdownx.inline
+  - pymdownx.magiclink:
+      user: gangstand
+      repo: fastapi-entity-auth
+      repo_url_shorthand: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+  - attr_list
+  - def_list
+  - admonition
+  - codehilite
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+
+nav:
+  - About: index.md
+  - Usage:
+      - Basic Usage: usage/basic.md
+      - Partially Protecting: usage/optional.md
+      - Refresh Tokens: usage/refresh.md
+      - Freshness Tokens: usage/freshness.md
+      - Revoking Tokens: usage/revoking.md
+      - JWT in Cookies: usage/jwt-in-cookies.md
+      - Additional claims: usage/additional-claims.md
+      - Asymmetric Algorithm: usage/asymmetric.md
+      - Dynamic Token Algorithm: usage/dynamic-algorithm.md
+      - WebSocket Protecting: usage/websocket.md
+  - Release Notes: release-notes.md
