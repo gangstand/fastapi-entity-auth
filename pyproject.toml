@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fastapi_entity_auth"
-version = "0.0.2"
+version = "1.0.0"
 description = "FastApi Entity Auth"
 authors = ["gangstand <ganggstand@gmail.com>"]
 readme = "README.md"

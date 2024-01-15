@@ -1,10 +1,3 @@
-## 0.0.2
+## 1.0.0
 
-* Creating documentation
-* Minor improvements
-* Code refactoring
-
-
-## 0.0.1
-
-* Initial release.
+* A FastAPI extension that provides support for JWT authentication (secure, easy to use, and lightweight).
