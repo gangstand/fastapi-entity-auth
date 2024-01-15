@@ -6,6 +6,8 @@
 
 **Source Code**: <a href="https://github.com/gangstand/fastapi-entity-auth" target="_blank">https://github.com/gangstand/fastapi-entity-auth</a>
 
+**Documentation**: <a href="https://gangstand.github.io/fastapi-entity-auth/" target="_blank">https://gangstand.github.io/fastapi-entity-auth/</a>
+
 ---
 
 ## Features
